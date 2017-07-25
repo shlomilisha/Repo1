@@ -7,7 +7,7 @@ import org.junit.Test;
 public class ApplicationInstallation {
 	
 	@Test
-	public static void installApplication() throws IOException {
+	public void installApplication() throws IOException {
 		if (!Android.deviceIpList.isEmpty()) {
 			for (int x = 0; x < Android.deviceIpList.size(); x++) {
 				if (Android.deviceIpList.get(x).getConnected()) {
