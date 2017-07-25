@@ -22,25 +22,25 @@
 			<version>3.4.0</version>
 			<scope> test </scope>
 		</dependency>
-		
-		
+
+
 		<dependency>
-    		<groupId>org.frontendtest.components</groupId>
-    		<artifactId>com.sample</artifactId>
-   			 <version>1.0</version>
-    		<scope>system</scope>
-    		<systemPath>C:\Users\shlomi\workspace\mavenProjectTest\library\image-comparison-1.0.jar</systemPath>
+			<groupId>org.frontendtest.components</groupId>
+			<artifactId>com.sample</artifactId>
+			<version>1.0</version>
+			<scope>system</scope>
+			<systemPath>C:\Users\user\git\Repo1\library\image-comparison-1.0.jar</systemPath>
 		</dependency>
-		
+
 		<dependency>
-    		<groupId>net.coobird.thumbnailator</groupId>
-    		<artifactId>com.sample</artifactId>
-   			 <version>0.4.2</version>
-    		<scope>system</scope>
-    		<systemPath>C:\Users\shlomi\workspace\mavenProjectTest\library\thumbnailator-0.4.2-all.jar</systemPath>
+			<groupId>net.coobird.thumbnailator</groupId>
+			<artifactId>com.sample</artifactId>
+			<version>0.4.2</version>
+			<scope>system</scope>
+			<systemPath>C:\Users\user\git\Repo1\library\thumbnailator-0.4.2-all.jar</systemPath>
 		</dependency>
 
 	</dependencies>
-	
+
 
 </project>
