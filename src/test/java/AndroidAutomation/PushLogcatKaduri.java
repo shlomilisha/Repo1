@@ -8,7 +8,7 @@ import org.junit.Test;
 public class PushLogcatKaduri {
 	
 	@Test
-	public static void pushLogcatKaduri() throws IOException {
+	public void pushLogcatKaduri() throws IOException {
 		if (Android.deviceIpList.size() != 0) { //
 			for (int x = 0; x < Android.deviceIpList.size(); x++) {
 				// System.out.println("Pushing Logcat Kaduri file to device: "+device.getName());

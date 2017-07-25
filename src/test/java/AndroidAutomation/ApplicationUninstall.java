@@ -7,7 +7,7 @@ import org.junit.Test;
 public class ApplicationUninstall {
 	
 	@Test
-	public static void uninstallApplication() throws IOException {
+	public void uninstallApplication() throws IOException {
 		if (!Android.deviceIpList.isEmpty()) {
 			for (int x = 0; x < Android.deviceIpList.size(); x++) {
 				if (Android.deviceIpList.get(x).getConnected()) {

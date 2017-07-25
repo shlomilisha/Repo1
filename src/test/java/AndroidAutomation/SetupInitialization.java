@@ -7,7 +7,7 @@ import org.junit.Test;
 public class SetupInitialization {
 	
 	@Test
-	public static void initializationSetup() throws IOException {
+	public void initializationSetup() throws IOException {
 		System.out
 		.println("Starting initialization setup for each platform type");
 		// String vander = null;
